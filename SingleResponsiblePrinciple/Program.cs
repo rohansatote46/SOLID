@@ -8,7 +8,7 @@ namespace SingleResponsiblePrinciple
         static void Main(string[] args)
         {
             BankAccount ba = new BankAccount();
-            ba.AccountBalance = 5000;
+            ba.AccountBalance = 5000; 
             ba.AccountNumber = "ROH001";
             Program p = new Program();
            var intrest = p.CalculateInterest(ba);
